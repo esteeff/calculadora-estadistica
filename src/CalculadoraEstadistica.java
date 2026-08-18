@@ -14,7 +14,7 @@ public class CalculadoraEstadistica {
     public static void main(String args) {
         double datos = {10, 20, 30, 40, 50};
         
-        Stystem.out.println("Media =" + calculadoraMedia(datos));
+        Stystem.out.printf("Media = %.2f%n", calculadorMedia(datos));
     }
 }
         
